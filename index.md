@@ -170,7 +170,7 @@ span{
     function dgoi6Prumada(){
         alert("Padrão para Prumada 6 Fibras por Tubo");
         
-        var mode = prompt("Modo [1] Numeração maior que 48\nModo [2] Numeração menor que 48");
+        var mode = prompt("Modo [1] Cabo 1 ou Numeração maior que 48\nModo [2] Cabo 2 ou Cabo 3");
      
         var opt = prompt("Digite a numeração da Prumada para saber \n a cor da fibra e do tubo?");
 
