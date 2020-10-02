@@ -331,18 +331,18 @@ span{
         , '<span style="background-color: black; color: white;"> PRETO'
         , '<span style="background-color: gray; color: black;"> CINZA'
         , '<span style="background-color: orange; color: black;"> LARANJA'
-        , '<span style="background-color: navy blue; color: white;"> AQ MAR'];
+        , '<span style="background-color: navy; color: white;"> AQ MAR'];
     
     let splitter=[
       [0,0],
-      ["A1 SEC.1 / A2 SEC.2 / A3 SEC.3 / A4 SEC.4 / A5 SEC.5 / A6 SEC.6 / A7 SEC.7 / A8 SEC.8"],
-      ["A1 SEC.9 / A2 SEC.10 / A3 SEC.11 / A4 SEC.12 / A5 SEC.13 / A6 SEC.14 / A7 SEC.15 / A8 SEC.16"],
-      ["A1 SEC.17 / A2 SEC.18 / A3 SEC.19 / A4 SEC.20 / A5 SEC.21 / A6 SEC.22 / A7 SEC.23 / A8 SEC.24"],
-      ["A1 SEC.25 / A2 SEC.26 / A3 SEC.27 / A4 SEC.28 / A5 SEC.29 / A6 SEC.30 / A7 SEC.31 / A8 SEC.32"],
-      ["A1 SEC.33 / A2 SEC.34 / A3 SEC.35 / A4 SEC.36 / A5 SEC.37 / A6 SEC.38 / A7 SEC.39 / A8 SEC.40"],
-      ["A1 SEC.41 / A2 SEC.42 / A3 SEC.43 / A4 SEC.44 / A5 SEC.45 / A6 SEC.46 / A7 SEC.47 / A8 SEC.48"],
-      ["A1 SEC.49 / A2 SEC.50 / A3 SEC.51 / A4 SEC.52 / A5 SEC.53 / A6 SEC.54 / A7 SEC.55 / A8 SEC.56"],
-      ["A1 SEC.57 / A2 SEC.58 / A3 SEC.59 / A4 SEC.60 / A5 SEC.61 / A6 SEC.62 / A7 SEC.63 / A8 SEC.64"],
+      ["A.1 SEC.1 / A.2 SEC.2 / A.3 SEC.3 / A.4 SEC.4 / A.5 SEC.5 / A.6 SEC.6 / A.7 SEC.7 / A.8 SEC.8"],
+      ["A.1 SEC.9 / A.2 SEC.10 / A.3 SEC.11 / A.4 SEC.12 / A.5 SEC.13 / A.6 SEC.14 / A.7 SEC.15 / A.8 SEC.16"],
+      ["A.1 SEC.17 / A.2 SEC.18 / A.3 SEC.19 / A.4 SEC.20 / A.5 SEC.21 / A.6 SEC.22 / A.7 SEC.23 / A.8 SEC.24"],
+      ["A.1 SEC.25 / A.2 SEC.26 / A.3 SEC.27 / A.4 SEC.28 / A.5 SEC.29 / A.6 SEC.30 / A.7 SEC.31 / A.8 SEC.32"],
+      ["A.1 SEC.33 / A.2 SEC.34 / A.3 SEC.35 / A.4 SEC.36 / A.5 SEC.37 / A.6 SEC.38 / A.7 SEC.39 / A.8 SEC.40"],
+      ["A.1 SEC.41 / A.2 SEC.42 / A.3 SEC.43 / A.4 SEC.44 / A.5 SEC.45 / A.6 SEC.46 / A.7 SEC.47 / A.8 SEC.48"],
+      ["A.1 SEC.49 / A.2 SEC.50 / A.3 SEC.51 / A.4 SEC.52 / A.5 SEC.53 / A.6 SEC.54 / A.7 SEC.55 / A.8 SEC.56"],
+      ["A.1 SEC.57 / A.2 SEC.58 / A.3 SEC.59 / A.4 SEC.60 / A.5 SEC.61 / A.6 SEC.62 / A.7 SEC.63 / A.8 SEC.64"],
       ];
     
     var ss = prompt("Agora escreva na ordem os splitters secundários que contem na caixa \n exemplo: 5,4,3,7,4,3");
