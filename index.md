@@ -10,7 +10,8 @@ span{
     font-weight: bold; 
     color: white;  
     display: block;
-    margin: 10px auto;
+    margin: 10px auto; 
+    height: 20px; 
     padding: 10px 0px 10px 5px;
 }
 
@@ -320,22 +321,22 @@ span{
     function dgoic(){
     alert("Faça a leitura da tampa e insira os dados no programa");
     
-    var cores = ['<span style="background-color: green; ">  ' 
-        ,'<span style="background-color: yellow; color: black;">  '
-        ,' <span style="background-color: white; color: black; border: 1px solid black;">  '
-        ,' <span style="background-color: blue; color: white;">  '
-        , ' <span style="background-color: red; color: black;"> '
-        , '<span style="background-color: purple; color: white;"> '
-        , '<span style="background-color: brown; color: white;"> '
-        , '<span style="background-color: pink; color: black;"> '
-        , '<span style="background-color: black; color: white;"> '
-        , '<span style="background-color: gray; color: black;"> '
-        , '<span style="background-color: orange; color: black;"> '
-        , '<span style="background-color: navy blue; color: white;"> '];
+    var cores = ['<span style="background-color: green; "> VERDE ' 
+        ,'<span style="background-color: yellow; color: black;"> AMARELA '
+        ,' <span style="background-color: white; color: black; border: 1px solid black;"> BRANCA '
+        ,' <span style="background-color: blue; color: white;"> AZUL '
+        , ' <span style="background-color: red; color: black;"> VERMELHO'
+        , '<span style="background-color: purple; color: white;"> VIOLETA'
+        , '<span style="background-color: brown; color: white;"> MARROM'
+        , '<span style="background-color: pink; color: black;"> ROSA'
+        , '<span style="background-color: black; color: white;"> PRETO'
+        , '<span style="background-color: gray; color: black;"> CINZA'
+        , '<span style="background-color: orange; color: black;"> LARANJA'
+        , '<span style="background-color: navy blue; color: white;"> AQ MAR'];
     
     let splitter=[
       [0,0],
-      ["A1 SEC.1 | A2 SEC.2 | A3 SEC.3 | A4 SEC.4 | A5 SEC.5 | A6 SEC.6 | A7 SEC.7 | A8 SEC.8"],
+      ["A1 SEC.1 / A2 SEC.2 / A3 SEC.3 / A4 SEC.4 / A5 SEC.5 / A6 SEC.6 / A7 SEC.7 / A8 SEC.8"],
       ["A1 SEC.9 / A2 SEC.10 / A3 SEC.11 / A4 SEC.12 / A5 SEC.13 / A6 SEC.14 / A7 SEC.15 / A8 SEC.16"],
       ["A1 SEC.17 / A2 SEC.18 / A3 SEC.19 / A4 SEC.20 / A5 SEC.21 / A6 SEC.22 / A7 SEC.23 / A8 SEC.24"],
       ["A1 SEC.25 / A2 SEC.26 / A3 SEC.27 / A4 SEC.28 / A5 SEC.29 / A6 SEC.30 / A7 SEC.31 / A8 SEC.32"],
@@ -353,7 +354,7 @@ span{
     for(var i = 0; i < sss.length; i++){
       var n = sss[i];
       var j = +n ;
-    x = x + cores[i] + " SS"+ j + " " + splitter[n] + "<br/></span>";
+    x = x + cores[i] + " SS"+ j + " >> " + splitter[n] + "<br/></span>";
     }
     
     document.getElementById("dgoi-c").innerHTML=x;
