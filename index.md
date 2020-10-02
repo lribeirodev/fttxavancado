@@ -28,7 +28,7 @@ span{
      alert("Bem vindo ao Suporte Avançado FTTX\nCriador Lucas Ribeiro");
      
      function menu(){
-       var op=prompt("Selecione uma opção para prosseguir\n[1] Calculadora DGOI-C\n[X] Calcular DGOI Splitter\n[3] Calcular DGOI PRUMADA 6\n[4] Calcular Lateral Fusionada\n[5] Contato Criador\n[0] Para finalizar o suporte");
+       var op=prompt("Selecione uma opção para prosseguir\n[1] Calculadora DGOI-C\n[X] Calcular DGOI Splitter\n[3] Calcular PRUMADA\n[4] Calcular Lateral Fusionada\n[5] Contato Criador\n[0] Para finalizar o suporte");
       
     if(op==1){
        dgoic();
