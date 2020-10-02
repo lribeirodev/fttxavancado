@@ -320,18 +320,18 @@ span{
     function dgoic(){
     alert("Faça a leitura da tampa e insira os dados no programa");
     
-    var cores = ['<span style="background-color: green; "> ETIQUETA VERDE ' 
-        ,'<span style="background-color: yellow; color: black;"> ETIQUETA AMARELA '
-        ,' <span style="background-color: white; color: black; border: 1px solid black;"> ETIQUETA BRANCA '
-        ,' <span style="background-color: blue; color: white;"> ETIQUETA AZUL '
-        , ' <span style="background-color: red; color: black;"> ETIQUETA VERMELHO'
-        , '<span style="background-color: purple; color: white;"> ETIQUETA VIOLETA'
-        , '<span style="background-color: brown; color: white;"> ETIQUETA MARROM'
-        , '<span style="background-color: pink; color: black;"> ETIQUETA ROSA'
-        , '<span style="background-color: black; color: white;"> ETIQUETA PRETO'
-        , '<span style="background-color: gray; color: black;"> ETIQUETA CINZA'
-        , '<span style="background-color: orange; color: black;"> ETIQUETA LARANJA'
-        , '<span style="background-color: navy blue; color: white;"> ETIQUETA AQ MAR'];
+    var cores = ['<span style="background-color: green; ">  ' 
+        ,'<span style="background-color: yellow; color: black;">  '
+        ,' <span style="background-color: white; color: black; border: 1px solid black;">  '
+        ,' <span style="background-color: blue; color: white;">  '
+        , ' <span style="background-color: red; color: black;"> '
+        , '<span style="background-color: purple; color: white;"> '
+        , '<span style="background-color: brown; color: white;"> '
+        , '<span style="background-color: pink; color: black;"> '
+        , '<span style="background-color: black; color: white;"> '
+        , '<span style="background-color: gray; color: black;"> '
+        , '<span style="background-color: orange; color: black;"> '
+        , '<span style="background-color: navy blue; color: white;"> '];
     
     let splitter=[
       [0,0],
