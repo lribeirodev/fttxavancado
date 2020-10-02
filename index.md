@@ -348,7 +348,7 @@ span{
     var ss = prompt("Agora escreva na ordem os splitters secundários que contem na caixa \n exemplo: 5,4,3,7,4,3");
     
     var sss = ss.split(",");
-     var x = "";
+     var x = "LEGENDA: A = ANILHA / SEC = SUA SECUNDARIA DO PDA";
       
     for(var i = 0; i < sss.length; i++){
       var n = sss[i];
